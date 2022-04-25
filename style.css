@@ -1,0 +1,103 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    background-image:url('images.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+margin-top:20%;
+align-items: center;
+border-radius: 0px 0px 8px 8px;
+opacity: 80%;
+justify-content: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5px solid rgba(71, 70, 70, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    height: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+#inputCalculator{
+grid-column-start: 1;
+grid-column-end: 5;
+height: 75px;
+text-align: right;
+font-size: 28px;
+color: white;
+background-color:rgb(103, 102, 102);
+border:none !important;
+}
+
+.number0{
+grid-column-start: 1;
+grid-column-end: 3;
+border-radius: 0px 0px 0px 8px;
+text-align: center;
+}
+
+.btn-Equal{
+    border-radius: 0px 0px 8px 0px;
+}
+
+.btn-orange{
+    background-color: orange;
+        
+
+}
+.btn-darkGrey{
+    background-color: rgb(103, 102, 102);
+}
+
+.btn-grey{
+    background-color: rgb(125, 124, 124);
+}
+
+.buttonMac{
+    padding: 2px;
+    border-radius: 50%;
+}
+.buttonsMac {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color:rgb(103, 102, 102);
+    display: flex;
+    height: 8px;
+    padding: 5px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.buttonMac {
+    cursor: pointer;
+    border-radius: 50%;
+    height: 100%;
+    width: 8px;
+    margin: 2px;
+    border: none;
+}
+.R{
+    background-color: rgb(214, 72, 72);
+}
+
+.Y{
+    background-color: rgb(238, 217, 101);
+}
+.G{
+    background-color: rgb(71, 185, 71);
+}
